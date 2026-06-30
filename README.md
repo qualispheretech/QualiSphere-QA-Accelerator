@@ -81,6 +81,9 @@ QualiSphere Technologies
 
 ---
 
+Note: This repository is intended for educational and portfolio purposes. The templates and sample artifacts are provided as reference materials and should be customized to meet the requirements of individual projects.
+---  
+
 ## License
 
 MIT License
