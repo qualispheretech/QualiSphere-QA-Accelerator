@@ -1,0 +1,324 @@
+# Test Strategy
+
+**Project:** OrangeHRM Demo Application  
+**Company:** QualiSphere Technologies  
+**Version:** 1.0  
+**Prepared By:** QualiSphere Technologies  
+**Date:** 28 June 2026
+
+---
+
+# Document Information
+
+| Version | Author | Date | Status |
+|----------|--------|------|--------|
+| 1.0 | QualiSphere Technologies | 28-Jun-2026 | Draft |
+
+---
+
+# Table of Contents
+
+1. Introduction
+2. Purpose
+3. Scope
+4. Testing Objectives
+5. Test Levels
+6. Test Types
+7. Test Approach
+8. Test Environment
+9. Entry Criteria
+10. Exit Criteria
+11. Defect Management
+12. Risks & Mitigation
+13. Roles & Responsibilities
+14. Deliverables
+15. Tools
+16. Assumptions
+17. Approval
+
+---
+
+# 1. Introduction
+
+This document defines the overall testing strategy for the OrangeHRM Demo Application.
+
+The objective is to establish a structured testing approach that ensures the application functions correctly, meets business requirements, and is ready for production deployment.
+
+---
+
+# 2. Purpose
+
+The purpose of this Test Strategy is to:
+
+- Define the testing approach
+- Identify testing scope
+- Define testing objectives
+- Establish quality standards
+- Ensure complete requirement coverage
+- Reduce production defects
+
+---
+
+# 3. Scope
+
+## In Scope
+
+- Login
+- Logout
+- Dashboard
+- Employee Management
+- User Management
+- Leave Management
+- Recruitment
+- Search Functionality
+
+## Out of Scope
+
+- Performance Testing
+- Security Testing
+- Mobile Testing
+- Accessibility Testing
+- Localization Testing
+
+---
+
+# 4. Testing Objectives
+
+The testing objectives are:
+
+- Verify application functionality.
+- Validate business requirements.
+- Identify defects early.
+- Ensure system stability.
+- Support successful User Acceptance Testing (UAT).
+- Improve release confidence.
+
+---
+
+# 5. Test Levels
+
+| Test Level | Objective |
+|------------|-----------|
+| Smoke Testing | Verify build stability |
+| Functional Testing | Validate business functionality |
+| Integration Testing | Verify module interactions |
+| Regression Testing | Ensure existing functionality remains unaffected |
+| User Acceptance Testing | Validate business workflows |
+
+---
+
+# 6. Test Types
+
+The following testing techniques will be used:
+
+- Functional Testing
+- Positive Testing
+- Negative Testing
+- Boundary Value Analysis
+- Exploratory Testing
+- Usability Testing
+
+---
+
+# 7. Test Approach
+
+The testing process follows the Software Testing Life Cycle (STLC).
+
+```text
+Requirement Analysis
+        ↓
+Test Planning
+        ↓
+Test Scenario Design
+        ↓
+Test Case Design
+        ↓
+Test Data Preparation
+        ↓
+Environment Validation
+        ↓
+Smoke Testing
+        ↓
+Functional Testing
+        ↓
+Defect Reporting
+        ↓
+Regression Testing
+        ↓
+UAT Support
+        ↓
+Test Closure
+```
+
+Testing will follow a **Risk-Based Testing** approach, prioritizing business-critical modules such as Login, Employee Management, and Leave Management.
+
+---
+
+# 8. Test Environment
+
+| Item | Details |
+|------|---------|
+| Application | OrangeHRM Demo |
+| Browser | Google Chrome (Latest) |
+| Operating System | Windows 11 |
+| Test Data | Demo Users |
+| Test Repository | GitHub |
+| API Tool | Postman |
+
+---
+
+# 9. Entry Criteria
+
+Testing will begin only when:
+
+- Requirements are approved.
+- Test environment is available.
+- Application build is deployed.
+- Test data is prepared.
+- Test cases are reviewed.
+
+---
+
+# 10. Exit Criteria
+
+Testing will be considered complete when:
+
+- All planned test cases have been executed.
+- No Critical defects remain open.
+- High-priority defects are resolved or accepted.
+- Regression testing is completed.
+- Test Summary Report is approved.
+
+---
+
+# 11. Defect Management
+
+## Defect Lifecycle
+
+```text
+New
+ ↓
+Assigned
+ ↓
+In Progress
+ ↓
+Fixed
+ ↓
+Ready for Retest
+ ↓
+Closed
+```
+
+## Severity Levels
+
+| Severity | Description |
+|----------|-------------|
+| Critical | Application unusable |
+| High | Major functionality impacted |
+| Medium | Partial functionality impacted |
+| Low | Cosmetic or minor issue |
+
+## Priority Levels
+
+| Priority | Description |
+|----------|-------------|
+| High | Immediate fix required |
+| Medium | Fix before release |
+| Low | Can be fixed later |
+
+---
+
+# 12. Risks & Mitigation
+
+| Risk | Impact | Mitigation |
+|------|--------|------------|
+| Requirement Changes | High | Review requirements regularly |
+| Test Environment Issues | Medium | Validate environment before testing |
+| Limited Test Data | Medium | Prepare representative test data |
+| Delayed Defect Fixes | High | Daily defect review meetings |
+
+---
+
+# 13. Roles & Responsibilities
+
+| Role | Responsibility |
+|------|----------------|
+| Business Analyst | Requirement clarification |
+| QA Engineer | Test planning, execution, and reporting |
+| Developer | Defect fixing |
+| Project Manager | Project coordination |
+| Client/UAT Team | Business validation |
+
+---
+
+# 14. Deliverables
+
+The following documents will be produced during the testing lifecycle:
+
+- Test Strategy
+- Test Plan
+- Test Scenarios
+- Test Cases
+- Requirements Traceability Matrix (RTM)
+- Test Data
+- Defect Report
+- Test Summary Report
+- Release Recommendation
+
+---
+
+# 15. Tools
+
+| Tool | Purpose |
+|------|---------|
+| GitHub | Version Control |
+| Jira | Defect Management |
+| Postman | API Testing |
+| Newman | API Execution |
+| Microsoft Excel | Test Cases & RTM |
+| Microsoft Word | Documentation |
+
+---
+
+# 16. Assumptions
+
+- Requirements are complete and approved.
+- Test environment is stable.
+- Required test data is available.
+- Stakeholders are available for clarifications.
+
+---
+
+# 17. Approval
+
+| Name | Role | Status |
+|------|------|--------|
+| QA Lead | QualiSphere Technologies | Pending |
+| Project Manager | Client | Pending |
+| Business Owner | Client | Pending |
+
+---
+
+# Revision History
+
+| Version | Date | Description |
+|----------|------|-------------|
+| 1.0 | 28-Jun-2026 | Initial Test Strategy |
+
+---
+
+## About QualiSphere Technologies
+
+**QualiSphere Technologies** is a Software Testing and QA Consulting company specializing in:
+
+- Software Testing
+- API Testing
+- Telecom OSS/BSS Testing
+- Business Analysis
+- QA Consulting
+- QA Training
+- Resume & Career Services
+
+📧 **Email:** qualispheretech@gmail.com
+
+**Tagline:** *Transforming Quality into Confidence.*
